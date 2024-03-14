@@ -56,11 +56,6 @@ function Login() {
           password: "",
         });
       })
-      .catch((error) => {
-        console.error("Error during API request:", error);
-        // Handle error
-      });
-
     localStorage.setItem("registrationData", JSON.stringify(data1));
   }
 

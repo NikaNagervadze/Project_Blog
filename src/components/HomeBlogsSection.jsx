@@ -3,7 +3,6 @@ import axios from 'axios';
 import '../style.css';
 import { useBlogContext } from './BlogContext';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Modal, Button, Form } from 'react-bootstrap';
 
 function HomeBlogsSection() {

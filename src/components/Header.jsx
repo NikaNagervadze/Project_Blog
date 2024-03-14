@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../style.css';
-import burgerMenu from '../images/Burger-Menu.svg';
+import burgerMenu from '../images/Menu.svg';
 
 
 function Header() {
@@ -27,12 +27,8 @@ function Header() {
                         <li className="nav-item">
                             <Link className="nav-link link" to="/createBlog">Create Blog</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link link" to="/">Log in page</Link>
-                        </li>
                     </ul>
-                </div>
-
+                </div> 
             </div>
         </nav>
     </header>
