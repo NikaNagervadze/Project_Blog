@@ -1,11 +1,11 @@
 import React, { useState, useContext } from 'react';
-import { useBlogContext } from '../components/BlogContext';
+import { useBlogContext } from '../assests/components/BlogContext';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 
-import '../style.css';
-import Header from '../components/Header';
+import '../assests/CSS/style.css';
+import Header from '../assests/components/Header';
 
 const CreateBlog = ({ BlogCreated }) => {
   const { addBlog, setBlogs } = useBlogContext();

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import ScrollMagic from 'scrollmagic';
 
-import Header from '../components/Header';
-import HomeBody from '../components/HomeBody';
-import HomeBlogsSection from '../components/HomeBlogsSection';
+import Header from '../assests/components/Header';
+import HomeBody from '../assests/components/HomeBody';
+import HomeBlogsSection from '../assests/components/HomeBlogsSection';
 
 function Home() {  
 

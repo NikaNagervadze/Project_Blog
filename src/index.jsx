@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { BlogProvider } from './components/BlogContext';
+import { BlogProvider } from '../src/assests/components/BlogContext';
 
 import Home from './pages/Home';
 import CreateBlog from './pages/CreateBlog';
